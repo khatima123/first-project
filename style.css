@@ -243,3 +243,6 @@ a:hover {
 .mission-container {
   margin-top: 100px;
 }
+.first-m {
+  display: flex;
+}
