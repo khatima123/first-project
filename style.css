@@ -1,215 +1,245 @@
 /* header section start */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.header{
-    width: 100%;
+.header {
+  width: 100%;
 }
-.logo a img{
-    display: flex;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    margin-left: 20px;
+.logo a img {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
 }
-.nav{
-    width: 100%;
-    height: 75px;
-    margin: auto;
-    display: inline-flex;
+.nav {
+  width: 100%;
+  height: 75px;
+  margin: auto;
+  display: inline-flex;
 }
 
-.logo{
-    display: flex;
-    width: 200px;
-    height:70px;
-    float: left;
-    align-items: center;
-    
+.logo {
+  display: flex;
+  width: 200px;
+  height: 70px;
+  float: left;
+  align-items: center;
 }
-.search_box{
-    display: flex;
-    align-items:center;
-    margin-left:300px ;
+.search_box {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
 }
-.navbar{
-    display: flex;
-    text-decoration: none;
-    gap: 40px;
-    align-items: center;
+.navbar {
+  display: flex;
+  text-decoration: none;
+  gap: 40px;
+  align-items: center;
 }
-a:link{
-    text-decoration: none;
-    color: #717172;
-    text-transform: capitalize;
+a:link {
+  text-decoration: none;
+  color: #717172;
+  text-transform: capitalize;
 }
-a:visited{
-    color: black;
-    text-transform: capitalize;
- }
- a:hover{
-    color: black;
-    font-weight: bold;
- }
+a:visited {
+  color: black;
+  text-transform: capitalize;
+}
+a:hover {
+  color: black;
+  font-weight: bold;
+}
 /* header section end*/
 
 /*slider css style*/
-#slider{
-    width: 99%;
-    height: 470px;
-    position: relative;
-    margin: 20px auto;
-    box-shadow: 0 0 6px #000;
+#slider {
+  width: 99%;
+  height: 470px;
+  position: relative;
+  margin: 20px auto;
+  box-shadow: 0 0 6px #000;
 }
-#slider img{
-    width: 100%;
-    height: 465px;
+#slider img {
+  width: 100%;
+  height: 465px;
 }
-.slide{
-    display: none;
+.slide {
+  display: none;
 }
-.active{
-    display: block;
+.active {
+  display: block;
 }
-.prev , .next{
-    font-size: 40px;
-    text-decoration: none;
-    position: absolute;
-    top: 45%;
-    font-weight: 700;
+.prev,
+.next {
+  font-size: 40px;
+  text-decoration: none;
+  position: absolute;
+  top: 45%;
+  font-weight: 700;
 }
-.next{
-    right: 10px;
+.next {
+  right: 10px;
 }
-.prev{
-    left: 10px;
+.prev {
+  left: 10px;
 }
 /* slide style end*/
 
 /*boxes start*/
-.main-box{
-    width: 70%;
-    height: 400px;
-    margin: 0 auto;
-    text-align: center;
-    z-index: 328888989898;
+.main-box {
+  width: 70%;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 328888989898;
 }
 
-
-.boxes{
-    display: flex;
-    align-items:baseline;
-    gap: 50px;
-    width: 100%;
-    height: 70px;
-    text-align: center;
-    background: white;
+.boxes {
+  display: flex;
+  align-items: baseline;
+  gap: 50px;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  background: white;
 }
-.box{
-    background-color: #120a78;
-    clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
-    height: auto;
-    padding: 70px 20px 70px 20px;
-    margin-bottom: 20%;
+.box {
+  background-color: #120a78;
+  clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+  height: auto;
+  padding: 70px 20px 70px 20px;
+  margin-bottom: 20%;
 }
 
 .volunteer_text {
-    width: 100%;
-    float: left;
-    font-size: 26px;
-    color: #fff;
-    font-weight: bold;
-    padding-top: 20px;
+  width: 100%;
+  float: left;
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 20px;
 }
 
 .lorem_text {
-    width: 70%;
-    margin: 0 auto;
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
 }
 
 .join_bt {
-    width: 100px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 20px;
-    background-color: black;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  background-color: black;
 }
-.join_bt:hover{
-    width: 100px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 20px;
-    background-color: #120a78;
+.join_bt:hover {
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #120a78;
 }
 
 .join_bt a {
-    width: 100%;
-    font-size: 16px;
-    color: #ffffff;
-    text-align: center;
-    border: 1px solid #ffffff;
-    padding: 5px 15px;
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #ffffff;
+  padding: 5px 15px;
 }
 
 /*about style*/
-.main-about{
-    display: grid;
-    width: 100%;
-    color:#ffffff;
-    background-color: #120a78;
+.main-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #120a78;
 }
 
-.about_taital {
-    float: left;
-    width: 100%;
-    font-size: 40px;
-    color: #ffffff;
-    text-transform: uppercase;
-    padding-top: 20px;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+.document {
+  width: 80%;
 }
 
-.about_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    margin: 0px;
-    color: #ffffff;
-    padding: 50px 0px;
+.about_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-
+.about_img img {
+  width: 100%;
+}
+.border-box1 {
+  width: 100px;
+  height: 100px;
+  border-top: 4px solid red;
+  border-left: 4px solid red;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.image-wrapper {
+  position: relative;
+  padding: 10px;
+}
+.border-box2 {
+  width: 100px;
+  height: 100px;
+  border-bottom: 4px solid red;
+  border-right: 4px solid red;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
 .about-more {
-    width: 150px;
-    margin-top: 20px;
-    float: left;
+  padding-top: 100px;
 }
-
 .about-more button {
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: green;
-    border: 1px solid #ffffff;
-    padding: 8px 0px;
-    text-transform: uppercase;
-    border-radius: 3px;
+  padding: 5px 2px;
+  background: green;
+  border: 2px solid wheat;
+}
+.about-more a {
+  color: #fff;
+  text-transform: capitalize;
+}
+.about_taital {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 20px;
+}
+.about-text {
+  color: white;
 }
 
-.about-more button:hover {
-    border: 2px solid #ffffff;
+/* start mission*/
+.photos-1 img {
+  width: 400px;
+  height: 250px;
 }
-
-.about{
-    width: 100%;}
-.about_img{
-    width: 300px;
-    height: 200px;
-    float:right;
+.photos-2 img {
+  width: 400px;
+  height: 250px;
 }
-
+.photos-3 img {
+  width: 400px;
+  height: 250px;
+}
+.mission-container {
+  margin-top: 100px;
+}
