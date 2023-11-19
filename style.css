@@ -1,4 +1,8 @@
 /* header section start */
+.container {
+  width: 100%;
+  height: auto;
+}
 * {
   margin: 0;
   padding: 0;
@@ -306,9 +310,72 @@ a:hover {
   flex-direction: row;
   gap: 20px;
 }
-.footer {
+.footer-container {
+  display: flex;
+  margin-top: 40px;
+  background: #212921;
+}
+.s-footer {
+  margin-left: 20px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.footer-logo img {
+  width: 400px;
+  height: 250px;
+}
+.s-footer2 {
+  margin-top: 40px;
+  display: flex;
+  gap: 40%;
+}
+.social_icon {
+  flex-direction: row;
+}
+.social_icon ul li {
+  display: inline;
+  padding: 20px;
+}
+.button-footer {
+  text-decoration: end;
+}
+.s-footer3 {
+  margin: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.footer-text {
+  color: wheat;
+}
+
+/*-------------------------About section-------------------------*/
+.con-about {
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+}
+.vision h3 {
+  color: #fff;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.document-about {
+  width: 70%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10%;
+}
+.full-doc {
   display: flex;
   gap: 20px;
-  margin-top: 40px;
-  background: #717172;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.document3 {
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
